@@ -7,7 +7,7 @@ $(document).ready(()=>{
                 url:"http://localhost:3000/api/crawl",
                 method:"POST",
                 headers:{
-                    "content-type": "application/json"
+                    "content-type": "application/x-www-form-urlencoded"
                   },
                 data: {url:actualreq}
         })

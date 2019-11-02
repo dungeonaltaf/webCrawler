@@ -2,19 +2,20 @@
 <html>
     <head>
 <title> Web Crawler</title>
-<script type="text/javascript" src ="jquery-3.4.1.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+<link rel="stylesheet" href="text/css" href="./css/bootstrap.css">
+<script type="text/javascript" src ="./js/jquery-3.4.1.js"></script>
     </head>
     <body>
-<h1>This is  web crawler</h1>
+<h1>Crawler</h1>
 
-<form action="http://localhost:3000/api/crawl" method="POST">
-<label for="who"> URL</label>
-<input type="text" name="url">
-<input type="submit" value="Crawl">
-</form>
-
+<div class="form-group">
+<p> URL</p>
+<input type="text" name="url" id = "urlBox" class = "form-control form-control-lg">
+<div>
+<button id = "crawlBtn" size = "200" class = "btn btn-danger"> Crawl </button>
+</div>
 <div id = "contentBox"></div>
     </body>
-   <!-- <script type="text/javascript" src="index.js"></script>
-   -->
+   <script type="text/javascript" src="./js/index.js"></script>
 </html>
