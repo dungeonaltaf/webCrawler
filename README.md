@@ -6,7 +6,7 @@ Crawler is a Node.js web-crawler which will turn into full fledge personal web s
 ![](https://img.shields.io/github/forks/dungeonaltaf/webCrawler?style=plastic)
 ![](https://img.shields.io/github/stars/dungeonaltaf/webCrawler?style=plastic)
 ![](https://img.shields.io/github/license/dungeonaltaf/webCrawler?style=plastic)
-![](https://img.shields.io/github/license/dungeonaltaf/webCrawler?style=plastic)
+![](https://img.shields.io/twitter/url?style=social)
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install Crawler.
