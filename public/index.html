@@ -2,6 +2,7 @@
 <html>
     <head>
 <title> Web Crawler</title>
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Monoton|Patua+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./css/index.css">
 
 <script type="text/javascript" src ="./js/jquery-3.4.1.js"></script>
@@ -12,7 +13,7 @@
 <div class="form-group">
 <p> URL</p>
 <input type="text" name="url" id = "urlBox" class = "form-control form-control-lg">
-<div>
+<div class = "wrapper">
 <button id = "crawlBtn" size = "200" class = "btn btn-danger"> Crawl </button>
 </div>
 <div id = "contentBox"></div>
@@ -21,9 +22,10 @@
 <div class="form-group">
     <p> URL</p>
     <input type="text" name="urlQuery" id = "urlQuery" class = "form-control form-control-lg">
-    <div>
+    <div class = "wrapper">
     <button id = "queryBtn" size = "200" class = "btn btn-danger"> Search </button>
     </div>
+
     <div id = "contentBox"></div>
 
     <table id="records_table" border='1' class = "table table-hover">
