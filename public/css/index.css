@@ -29,7 +29,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 body{
-  background-color:black;
+  background-color: black;
 }
 .btn {
   display: inline-block;
@@ -150,3 +150,22 @@ div {
   display: block;
 }
 
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+.table-active, .table-active > th, .table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.table-active, .table-active > th, .table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}

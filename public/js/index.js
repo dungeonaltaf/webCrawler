@@ -22,7 +22,17 @@ $(document).ready(()=>{
                 headers:{
                     "content-type": "application/x-www-form-urlencoded"
                   },
-                data: {url:actualreq}
+                data: {url:actualreq},
+                success: function (response) {
+                  var trHTML = '';
+                  console.log("Ajax receieved");
+                  console.log(response);
+                  $.each(response, function (i, item) {
+                      console.log("The iterator");
+                      trHTML += '<tr><td>' + item.title + '</td><td>' + item.h1 + '</td><td>' + item.h2+'</td><td>'+ item.link + '</td></tr>';
+                  });
+                  $('#records_table').append(trHTML);
+              }
         })
     });
 
